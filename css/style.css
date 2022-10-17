@@ -1,4 +1,37 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
+
+body {
+    background: #EFF2F6;
+    position: relative;
+    width: 1400px;
+    height: 982px;
+}
+.heading {
+    position: absolute;
+    width: 519px;
+    height: 44px;
+    left: 141px;
+    top: 111px;
+
+    /* Heading 03 */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height, or 122% */
+    letter-spacing: -1.5px;
+
+    color: #000000;
+}
+.checkout {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Primary */
+    background: #0D0D0D;
+    /* Primary */
+    border: 1px solid #0D0D0D;
 }
