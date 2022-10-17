@@ -5,5 +5,5 @@
 * Mehmet-Emin IKITAS : 
 * Chahid YASSINE :
 * Maxime Kosak :
-* Lucas LAURET : cart01.html
+* Lucas LAURET : cart01.html  
 https://www.figma.com/file/YS88fIlPDDfvdcwiBBas1w/Ecommerce-Wireframe?node-id=0%3A1
