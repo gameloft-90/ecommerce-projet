@@ -2,7 +2,7 @@
 *Réalisé une implémentation d'une maquette **Figma** en HTML/CSS (sans Librairie/Framework) **cf img***
 
 
-* Mehmet-Emin IKITAS : 
+* Mehmet-Emin IKITAS : Page d'accueil
 * Chahid YASSINE :
 * Maxime Kosak :
 * Lucas LAURET : cart01.html  
