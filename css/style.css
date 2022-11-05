@@ -78,7 +78,9 @@ img {
     line-height: 30px;
     width: 100%;
 }
-
+.row-r a{
+    color: #000000;
+}
 .row-r div {
     display: flex;
     justify-content: flex-end;
