@@ -7,7 +7,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav {
@@ -15,9 +15,31 @@ nav {
     background-color: black;
     color: #FFFF;
     justify-content: center;
-    min-width: 100vw;
-    padding: 20px;
+    font-size: 14px;
     font-weight: bold;
+    align-items: center;
+    min-width: 100vw;
+    padding: 10px;
+    gap: 10px;
+}
+
+nav a:hover {
+    color: #842129;
+    transition: 0.25;
+}
+
+nav img {
+    height: 20px;
+    width: 20px;
+}
+
+nav input[type=text] {
+    background-color: #000000;
+    color: white;
+    width: 50%;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 10px 10px 0;
 }
 
 .main {
@@ -42,7 +64,6 @@ nav {
 img {
     height: 133px;
     width: 129px;
-    padding: 0 10px 10px 0;
 }
 
 .row {
@@ -100,8 +121,7 @@ select {
 .b-left {
     display: flex;
     flex-flow: column wrap;
-    width: 40%;
-    margin: 50px 10px 10px 285px;
+    width: 100%;
 }
 
 .b-left span {
@@ -136,4 +156,72 @@ label span::after {
 #touch1:checked+.slide {
     padding-top: 10px;
     height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 50px 0 50px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 20px 10px 10px 60px;
+    line-height: 16.45px;
+    gap: 50px;
+}
+
+.footer-left h1 {
+    width: 400px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.footer-left p {
+    width: 400px;
+    height: 32px;
+}
+
+.footer-left input[type=text] {
+    width: 400px;
+    margin-right: 5px;
+}
+
+.footer-left a {
+    display: flex;
+    align-items: center;
+    margin-left: -85px;
+    height: 80%;
+    font-size: 14px;
+    color: #000000;
+}
+
+.footer-left div {
+    display: flex;
+    margin-right: 5px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-start;
+    width: 35%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    line-height: 26px;
+}
+
+.column span a {
+    color: #909090;
+}
+
+.head,
+.footer-left a {
+    font-weight: bold;
 }
