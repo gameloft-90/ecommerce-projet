@@ -12,13 +12,20 @@
 <body>
     <nav>
         <a href="#">Ecommerce</a>
-        <a href="#">Shop</a>
-        <a href="#">Stories</a>
-        <a href="#">About</a>
-        <img src="/img/mlens.png" alt="loupe"><input type="text" placeholder="Recherche">
-        <a href="#"><img src="/img/handbag.png" alt="sac"> 3</a>
-        <a href="#"> Login</a>
+        <div class="link">
+            <a href="#">Shop</a>
+            <a href="#">Stories</a>
+            <a href="#">About</a>
+        </div>
+        <img class="svg" src="/img/mlens.png" alt="loupe"><input type="text" placeholder="Recherche">
+        <a href="#"> <img class="svg" src="/img/handbag.png" alt="sac">
+            <h7>3</h7>
+        </a>
+        <a class="svg" href="#"> Login</a>
     </nav>
+    <a class="hamburger-menu" href="#">
+        <img src="/img/hamburger.svg" alt="menu hamburger">
+    </a>
     <div class="main">
         <div class="left">
             <div class="heading">
@@ -164,5 +171,14 @@
         </div>
     </footer>
 </body>
+
+<script>
+    const menuHamburger = document.querySelector(".hamburger-menu")
+    const navLinks = document.querySelector(".link")
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 
 </html>
