@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 
-a, li{
+a{
     list-style: none;
     text-decoration: none;
     color: white;
@@ -23,14 +23,7 @@ nav {
     padding: 10px;
     gap: 10px;
 }
-ul{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    min-width: 100vw;
-    padding: 10px;
-    gap: 50px;
-}
+
 nav a:hover {
     color: #842129;
     transition: 0.25;
@@ -44,12 +37,12 @@ nav img {
     display: none;
 }
 
-nav input[type=text] {
+nav input[type=search] {
     background-color: #000000;
     color: white;
     width: 50%;
     border: none;
-    margin-top: 20px;
+    margin: 20px 0 20px;
     padding: 10px 10px 10px 0;
 }
  .hamburger-menu img{
@@ -150,34 +143,48 @@ select {
     cursor: pointer;
 }
 
-.slide {
-    clear: both;
-    width: 100%;
-    height: 0px;
-    overflow: hidden;
-    transition: height .4s ease;
+label {
+    display: block;    
+	padding: 8px 0 0 0;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #FFF;
+	transition: ease .5s;
+	position: relative;
 }
 
-label span::after {
-    float: right;
-    content: "+";
-}
 
-#touch,
-#touch0,
-#touch1 {
+label::after {
+    content: '+';
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
     position: absolute;
-    opacity: 0;
-    height: 0px;
+    right: 10px;
+    top: 2px;
 }
 
-#touch:checked+.slide,
-#touch0:checked+.slide,
-#touch1:checked+.slide {
-    padding-top: 10px;
-    height: 50px;
+input[type=checkbox]:checked + label:after {
+    content: '-';
+    right: 14px;
+    top: 3px;
 }
 
+.content {
+    width: 100%;
+}
+
+input[type=checkbox] + label + .content {
+	display: none;
+}
+
+input[type=checkbox]:checked + label + .content {
+	display: block;
+}
+
+input[type=checkbox] {
+	display: none;
+}
 footer {
     display: flex;
     justify-content: center;
@@ -245,13 +252,16 @@ footer {
 .footer-left a {
     font-weight: bold;
 }
+svg{
+    fill: #3c5c92;
+}
 @media screen and (max-width: 1050px){
     .main{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    nav input[type=text], nav .svg, nav h7{
+    nav input[type=search], nav img, nav span{
     display: none;
     }
     nav{
@@ -263,35 +273,30 @@ footer {
         position: absolute;
         display: flex;
         justify-content: flex-start;
-        align-items: center;
         flex-direction: column;
         width: 100%;
-        height: 220vh;
-        top: 10%;
+        top: 8%;
         left: 0;
-        background-color: rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(10px);
-        margin-left: -100%;
+        background-color: black;
+        margin-top: -100%;
     }
     nav .link a{
-        text-align: center;
+        text-align: start;
         margin: 20px;
         width: 100%;
         z-index: 1;
         color:#3c5c92;
-        border: #3c5c92 solid 1px;
+        font-size: larger;
+        font-weight: bolder;
     }
     nav .link.mobile-menu{
-        margin-left: 0;
+        margin-top: 0;
     }
     .hamburger-menu{
         display: block;
         position: absolute;
-        top: 2%;
+        top: 3%;
         left: 90%;
-    }
-    .mobile-menu{
-
     }
     .left{
         order: 0;

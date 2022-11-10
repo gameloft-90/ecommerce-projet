@@ -6,25 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Panier n°1</title>
+    <link rel="icon" type="image/x-icon" href="/img/okimono.png">
+    <title>Panier | Okimono </title>
 </head>
 
 <body>
     <nav>
-        <a href="#">Ecommerce</a>
+        <a href="#">Ecommerce 置き物</a>
         <div class="link">
-            <a href="#">Shop</a>
-            <a href="#">Stories</a>
-            <a href="#">About</a>
+            <a href="#">Magasins</a>
+            <a href="#">Innovation</a>
+            <a href="#">A propos</a>
         </div>
-        <img class="svg" src="/img/mlens.png" alt="loupe"><input type="text" placeholder="Recherche">
+        <img src="/img/mlens.png" alt="loupe"><input type="search" placeholder="Recherche">
         <a href="#"> <img class="svg" src="/img/handbag.png" alt="sac">
-            <h7>3</h7>
+            <span>3</span>
         </a>
         <a href="#"> Login</a>
     </nav>
     <a class="hamburger-menu" href="#">
-        <img src="/img/hamburger.svg" alt="menu hamburger">
+        <svg viewBox="0 0 100 80" width="40" height="40">
+            <rect width="100" height="20"></rect>
+            <rect y="30" width="100" height="20"></rect>
+            <rect y="60" width="100" height="20"></rect>
+        </svg>
     </a>
     <div class="main">
         <div class="left">
@@ -35,7 +40,7 @@
             </div>
             <div class="items">
                 <div class="row">
-                    <img src="https://bit.ly/3zsnPba"
+                    <img src="/img/kaiyodo-raiden-figurine.webp"
                         alt="METAL GEAR RISING REVENGEANCE ACTION FIGURE REVOLTECH YAMAGUCHI">
                     <div class="row-r">
                         <h3> METAL GEAR RISING REVENGEANCE</h3>
@@ -44,13 +49,13 @@
                         Quantité : 1
                         <h2>415,00€</h2>
                         <div>
-                            <a href="#"> Remove </a>
+                            <a href="#"> Supprimer </a>
                         </div>
                     </div>
                 </div>
                 <hr>
                 <div class="row">
-                    <img src="https://bit.ly/3sK78UV" alt="Power CSM">
+                    <img src="/img/chainsaw-man-figurine-power-furyu.jpg" alt="Power CSM">
                     <div class="row-r">
                         <h3> CHAINSAW MAN - Power - Statue PVC </h3>
                         Taille : 22cm
@@ -58,7 +63,7 @@
                         Quantité : 1
                         <h2>420,00€</h2>
                         <div>
-                            <a href="#"> Remove </a>
+                            <a href="#"> Supprimer </a>
                         </div>
                     </div>
                 </div>
@@ -97,24 +102,33 @@
             <h3> Information de commande </h3>
             <br>
             <hr><br><br>
-            <label for="touch"><span> Politique de retour commande </span></label>
+
             <input type="checkbox" name="dropdl" id="touch">
-            <div class="slide">
-                <span> Ceci est notre example de politique de retour de commande</span>
+            <label for="touch"><span> Politique de retour commande </span></label>
+            
+            <div class="content">
+                <span> Tous les articles peuvent retourner sous un délai de 14 jours à compter de la date de réception
+                    des articles.</span>
             </div>
 
             <hr style="color:#909090;"><br><br>
-            <label for="touch0"><span> Option de livrage</span></label>
             <input type="checkbox" name="dropdl" id="touch0">
-            <div class="slide">
-                <span> Voci les différentes options pour la livraison</span>
+            <label for="touch0"> <span> Option de livraison</span></label>
+            
+            <div class="content">
+                <span> Livraison en France
+
+                    La livraison en France est offerte à partir de 65€ d’achat.</span>
             </div>
 
             <hr style="color:#909090;"><br><br>
-            <label for="touch1"><span> Option de livrage</span></label>
             <input type="checkbox" name="dropdl" id="touch1">
-            <div class="slide">
-                <span> Voci les différentes options pour la livraison</span>
+            <label for="touch1"> <span>Option de livraison</span></label>
+            
+            <div class="content">
+                <span>
+                    Vous recevrez votre colis sous 48h à 72h ! Après que vous auriez été avertit de son envoie par
+                    e-mail par nos services.</span>
             </div>
             <hr>
 
@@ -135,38 +149,38 @@
         <div class="footer-right">
             <div class="column">
                 <div class="head">
-                    Shop
+                    Magasin
                     <br><br>
                 </div>
-                <span> <a href="#"> Women's </a></span>
-                <span> <a href="#"> Men's </a></span>
-                <span> <a href="#"> Kid's </a></span>
-                <span> <a href="#"> Shoes </a></span>
-                <span> <a href="#"> Equipment</a> </span>
-                <span> <a href="#"> By activity</a> </span>
-                <span> <a href="#"> Gift cards</a> </span>
-                <span> <a href="#"> Sale</a> </span>
+                <span> <a href="#"> Femmes </a></span>
+                <span> <a href="#"> Hommes </a></span>
+                <span> <a href="#"> Enfants </a></span>
+                <span> <a href="#"> Figurines </a></span>
+                <span> <a href="#"> Equipements</a> </span>
+                <span> <a href="#"> Par thèmes</a> </span>
+                <span> <a href="#"> Cartes cadeaux</a> </span>
+                <span> <a href="#"> Réduction</a> </span>
             </div>
             <div class="column">
                 <div class="head">
-                    Help
+                    Aide
                     <br><br>
                 </div>
-                <span><a href="#"> Help center</a> </span>
-                <span><a href="#"> Order status</a> </span>
-                <span><a href="#"> size chart</a> </span>
-                <span><a href="#"> return and warranty</a> </span>
-                <span><a href="#"> Contact us</a> </span>
+                <span><a href="#"> Contact support </a> </span>
+                <span><a href="#"> Commandes</a> </span>
+                <span><a href="#"> Charte</a> </span>
+                <span><a href="#"> Retour et garantie</a> </span>
+                <span><a href="#"> Nous contactez</a> </span>
             </div>
             <div class="column">
                 <div class="head">
-                    About
+                    A propos
                     <br><br>
                 </div>
-                <span> <a href="#"> About us </a></span>
-                <span> <a href="#"> Responsibility </a></span>
-                <span> <a href="#"> Tech & innovation </a></span>
-                <span> <a href="#"> Explore our stories </a></span>
+                <span> <a href="#"> A propos de Nous </a></span>
+                <span> <a href="#"> Responsabilité </a></span>
+                <span> <a href="#"> Innovation </a></span>
+                <span> <a href="#"> Découvrez nos magasins </a></span>
             </div>
         </div>
     </footer>
