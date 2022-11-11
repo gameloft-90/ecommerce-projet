@@ -64,9 +64,11 @@ nav {
     align-items: center;
     min-width: 100vw;
     padding: 10px;
-    gap: 10px;
+    gap: 20px;
 }
-
+nav .link{
+    width: 80%;
+}
 nav a:hover {
     color: #842129;
     transition: 0.25s;
@@ -86,7 +88,7 @@ nav input[type=search] {
     color: white;
     width: 50%;
     border: none;
-    margin: 20px 0 20px;
+    margin: 10px 0 20px 10px;
     padding: 10px 10px 10px 0;
 }
 
@@ -327,14 +329,16 @@ svg {
 
 
 @media screen and (max-width: 1050px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .main {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    nav input[type=search],
-    nav input[type=submit],
     nav img,
     nav span {
         display: none;
@@ -342,6 +346,7 @@ svg {
 
     nav {
         min-height: 100px;
+        max-width: 100%;
         display: flex;
         justify-content: center;
         font-size: 14px;
@@ -356,10 +361,9 @@ svg {
         top: 8%;
         left: 0;
         background-color: black;
-        margin-top: -100%;
+        margin-top: -200%;
     }
-
-    nav .link a {
+    nav .link a, nav input[type=search], nav input[type=submit]  {
         text-align: start;
         margin: 20px;
         width: 100%;
@@ -368,9 +372,15 @@ svg {
         font-size: larger;
         font-weight: bolder;
     }
-
+    nav input[type=search], nav input[type=submit]{
+        margin: 10px;
+        width: 60%;
+    }
+    nav input[type=submit], nav input[type=search]{
+        color: #842129;
+    }
     nav .link.mobile-menu {
-        margin-top: 0;
+        margin-top: 10px;
     }
 
     .hamburger-menu {
@@ -414,16 +424,24 @@ svg {
     .footer-left {
         display: flex;
         align-items: center;
+        font-size: smaller;
+        width: 80%;
         order: 3;
         margin: 0;
         padding: 0 0 5% 0;
+    }
+    .footer-left h1, .footer-left p{
+        margin: 20px;
         width: 100%;
     }
-
     .footer-left a {
         margin-top: 5%;
     }
-
+    .footer-left div{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
     .footer-right {
         display: flex;
         order: 4;
