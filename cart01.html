@@ -10,20 +10,22 @@
     <title>Panier | Okimono </title>
 </head>
 
-<body>
+<body id="tour">
     <nav>
-        <a href="#">Ecommerce 置き物</a>
+        <a href="#">E-置き物</a>
         <div class="link">
             <a href="#">Magasin</a>
-            <a href="#">Magasin2</a>
+            <a href="#">Magasin 2</a>
             <a href="#">Panier</a>
             <a href="#">A propos</a>
         </div>
-        <img src="./img/mlens.png" alt="loupe"><input type="search" placeholder="Recherche">
+        <img src="./img/mlens.png" alt="loupe"><input type="search" placeholder="Recherche : do a barrel roll"
+            id="ATour">
+        <input type="submit" id="BTour" value="Submit">
         <a href="#"> <img class="svg" src="./img/handbag.png" alt="sac">
             <span>3</span>
         </a>
-        <a href="#"> Login</a>
+        <a href="#">Se connecter</a>
     </nav>
     <a class="hamburger-menu" href="#">
         <svg viewBox="0 0 100 80" width="40" height="40">
@@ -106,7 +108,7 @@
 
             <input type="checkbox" name="dropdl" id="touch">
             <label for="touch"><span> Politique de retour commande </span></label>
-            
+
             <div class="content">
                 <span> Tous les articles peuvent retourner sous un délai de 14 jours à compter de la date de réception
                     des articles.</span>
@@ -115,7 +117,7 @@
             <hr style="color:#909090;"><br><br>
             <input type="checkbox" name="dropdl" id="touch0">
             <label for="touch0"> <span> Option de livraison</span></label>
-            
+
             <div class="content">
                 <span> Livraison en France
 
@@ -125,7 +127,7 @@
             <hr style="color:#909090;"><br><br>
             <input type="checkbox" name="dropdl" id="touch1">
             <label for="touch1"> <span>Option de livraison</span></label>
-            
+
             <div class="content">
                 <span>
                     Vous recevrez votre colis sous 48h à 72h ! Après que vous auriez été avertit de son envoie par
@@ -185,15 +187,7 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="./js/script.js"></script>
 </body>
-
-<script>
-    const menuHamburger = document.querySelector(".hamburger-menu")
-    const navLinks = document.querySelector(".link")
-
-    menuHamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('mobile-menu')
-    })
-</script>
 
 </html>
