@@ -8,7 +8,7 @@
 ![Page produit](img/productpage02.png)  
 * Maxime Kosak : Shop Page
 ![Page shop](img/shoppage.png)  
-* Lucas LAURET : cart01.html
-![Page achat](img/cart01.png)  
+* Lucas LAURET : cart01.html :
+# https://llauret-iut90.github.io/ecommerce-projet/cart01.html#  
    
 https://www.figma.com/file/YS88fIlPDDfvdcwiBBas1w/Ecommerce-Wireframe?node-id=0%3A1
