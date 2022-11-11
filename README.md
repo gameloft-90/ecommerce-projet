@@ -11,3 +11,8 @@
 * # Lucas LAURET : lien -> [cart01.html + footer/nav](https://gameloft-90.github.io/ecommerce-projet/cart01.html)
    
 https://www.figma.com/file/YS88fIlPDDfvdcwiBBas1w/Ecommerce-Wireframe?node-id=0%3A1
+
+
+
+
+si il y a un malin qui supprime tout : https://github.com/llauret-iut90/ecommerce-projet/tree/main
