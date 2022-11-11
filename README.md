@@ -2,13 +2,12 @@
 *Réalisé une implémentation d'une maquette **Figma** en HTML/CSS (sans Librairie/Framework) **cf img***
 
 
-* Mehmet-Emin IKITAS : Page d'accueil Hero 01
-![Page acceuil](img/Hero01.png)  
-* Chahid YASSINE : Product Page 02
-![Page produit](img/productpage02.png)  
-* Maxime Kosak : Shop Page
-![Page shop](img/shoppage.png)  
-* Lucas LAURET : cart01.html :
-# https://llauret-iut90.github.io/ecommerce-projet/cart01.html#  
+* # Mehmet-Emin IKITAS : lien -> [Page d'accueil Hero 01]()
+
+* # Chahid YASSINE : lien -> [Product Page 02]()
+
+* # Maxime Kosak : lien -> [Shop Page]()  
+  
+* # Lucas LAURET : lien -> [cart01.html + footer/nav](https://llauret-iut90.github.io/ecommerce-projet/cart01.html)
    
 https://www.figma.com/file/YS88fIlPDDfvdcwiBBas1w/Ecommerce-Wireframe?node-id=0%3A1
