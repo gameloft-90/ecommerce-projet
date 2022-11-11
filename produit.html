@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="produit.css">
+    <link rel="icon" type="image/x-icon" href="./img/okimono.png">
+    <title> Caractéristiques du produit | Okimono </title>
+</head>
+
+<body id="tour">
+    
+    <nav>
+        <a href="Ecommerce.html">E-置き物</a>
+        <div class="link">
+            <a href="page_html.html">Magasin</a>
+            <a href="#">Magasin2</a>
+            <a href="cart01.html">Panier</a>
+            <a href="#">A propos</a>
+
+            <img src="./img/mlens.png" alt="loupe"><input type="search" placeholder="do a barrel roll" id="ATour">
+            <input type="submit" id="BTour" value="Rechercher">
+            <div class="sac">
+                <a href="#"> <img class="svg" src="./img/handbag.png" alt="sac">
+                    <span>3</span>
+                </a>
+            </div>
+            <a href="#">Connecter</a>
+        </div>
+    </nav>
+    <a class="hamburger-menu" href="#">
+        <svg viewBox="0 0 100 80" width="40" height="40">
+            <rect width="100" height="20"></rect>
+            <rect y="30" width="100" height="20"></rect>
+            <rect y="60" width="100" height="20"></rect>
+        </svg>
+    </a>
+
+    
+    <div class="box">
+        <div class="block-left" >
+            <div class="card">
+                <div class="flex-card">
+                    
+                    <div class="img-page"><img src="Luffy.jpg" alt="image de la Figurine" id="img"></div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="block-right">
+            <h1 id="titre">Figurine Luffy</h1>
+            <p id="prix">100€</p>
+            <p id="texte"></p>
+            <div class="box-boutton">
+                <div id="nombre">
+                    <button id="moins" onclick="minus()"> - </button>
+                    <div id="compting">1</div>
+                    <button id="plus" onclick="plus()"> + </button>
+                </div>
+                <select name="taille" id="taille">
+                    <option value="question">taille ?</option>
+                    <option value="8cm">8cm</option>
+                    <option value="12cm">12cm</option>
+                    <option value="15cm">15cm</option>
+                    <option value="20cm">20cm</option>
+                    <option value="25cm">25cm</option>
+                </select>
+            </div>
+            <p class="annotation"> Taille de la figurine à l'origine : 12cm </p>
+            <div class="box-boutton">
+                <button id="panier" >Add to Cart</button>
+                <button id="achat">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-left">
+            <h1>Inscrivez vous à notre Newsletter !</h1>
+            <p> Soyez le premier à être au courant de nos offres spéciales, nouveaux lancements de produits et
+                évènements</p>
+            <div>
+                <input type="text" placeholder="Adresse mail">
+                <a href="#">S'inscrire</a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="column">
+                <div class="head">
+                    Magasin
+                    <br><br>
+                </div>
+                <span> <a href="#"> Femmes </a></span>
+                <span> <a href="#"> Hommes </a></span>
+                <span> <a href="#"> Enfants </a></span>
+                <span> <a href="#"> Figurines </a></span>
+                <span> <a href="#"> Equipements</a> </span>
+                <span> <a href="#"> Par thèmes</a> </span>
+                <span> <a href="#"> Cartes cadeaux</a> </span>
+                <span> <a href="#"> Réduction</a> </span>
+            </div>
+            <div class="column">
+                <div class="head">
+                    Aide
+                    <br><br>
+                </div>
+                <span><a href="#"> Contact support </a> </span>
+                <span><a href="#"> Commandes</a> </span>
+                <span><a href="#"> Charte</a> </span>
+                <span><a href="#"> Retour et garantie</a> </span>
+                <span><a href="#"> Nous contactez</a> </span>
+            </div>
+            <div class="column">
+                <div class="head">
+                    A propos
+                    <br><br>
+                </div>
+                <span> <a href="#"> A propos de Nous </a></span>
+                <span> <a href="#"> Responsabilité </a></span>
+                <span> <a href="#"> Innovation </a></span>
+                <span> <a href="#"> Découvrez nos magasins </a></span>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
