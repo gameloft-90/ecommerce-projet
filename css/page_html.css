@@ -130,7 +130,6 @@ circle {
 .titre10 {
   font-weight: bolder;
   color: white;
-  text-decoration: underline red;
 
 }
 
@@ -384,6 +383,75 @@ h4{
 .vide {
   padding: 10px;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 50px 0 50px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 20px 10px 10px 60px;
+  line-height: 16.45px;
+  gap: 50px;
+}
+
+.footer-left h1 {
+  width: 400px;
+  height: 44px;
+  line-height: 44px;
+}
+
+.footer-left p {
+  width: 400px;
+  height: 32px;
+}
+
+.footer-left input[type=text] {
+  width: 400px;
+  margin-right: 5px;
+}
+
+.footer-left a {
+  display: flex;
+  align-items: center;
+  margin-left: -85px;
+  height: 80%;
+  font-size: 14px;
+  color: #000000;
+}
+
+.footer-left div {
+  display: flex;
+  margin-right: 5px;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: flex-start;
+  width: 35%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  line-height: 26px;
+}
+
+.column span a {
+  color: #909090;
+}
+
+.head,
+.footer-left a {
+  font-weight: bold;
+}
+
+
 
 
 @media screen and (max-width: 1370px) {
@@ -532,4 +600,49 @@ h4{
   align-items: center;
   width: 100%;
 }
+main{
+  display: flex;
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  font-size: smaller;
+  width: 80%;
+  order: 3;
+  margin: 0;
+  padding: 0 0 5% 0;
+}
+
+.footer-left h1,
+.footer-left p {
+  margin: 20px;
+  width: 100%;
+}
+
+.footer-left a {
+  margin-top: 1%;
+}
+
+.footer-left div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-right {
+  display: flex;
+  order: 4;
+  margin: 0;
+  padding: 0 0 0 10%;
+  width: 100%;
+}
+}
+
