@@ -4,7 +4,7 @@
 
 * # Mehmet-Emin IKITAS : lien -> [Page d'accueil Hero 01](https://gameloft-90.github.io/ecommerce-projet/Ecommerce.html)
 
-* # Chahid YASSINE : lien -> [Product Page 02]()
+* # Chahid YASSINE : lien -> [Product Page 02](https://gameloft-90.github.io/ecommerce-projet/produit.html)
 
 * # Maxime Kosak : lien -> [Shop Page](https://gameloft-90.github.io/ecommerce-projet/page_html.html)  
   
