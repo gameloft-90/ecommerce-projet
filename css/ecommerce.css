@@ -340,7 +340,7 @@ footer {
     }
     .logo img{
         height: 90px ;
-        width: 100px;
+        width: 97px;
     }
 
 
@@ -357,7 +357,11 @@ footer {
     .bouton a {
         width: 40%;
     }
-    
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
 
 }
