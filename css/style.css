@@ -93,7 +93,8 @@ nav input[type=search] {
 nav input[type=submit] {
     background-color: #000000;
     border: none;
-    color: white;
+    color: red;
+    font-weight: bold;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
