@@ -290,7 +290,7 @@ footer {
         width: 100%;
         top: 20%;
         left: 0;
-        background-color: black;
+        background-color: rgb(223, 230, 233);
         margin-top: -200%;
     }
 
@@ -330,6 +330,36 @@ footer {
 
 }
 
+@media screen and (max-width : 600px) {
+    nav a{
+        font-size: 15px;
+    }
+    .figurine img{
+        height: 400px;
+        width: 400px;
+    }
+    .logo img{
+        height: 90px ;
+        width: 110px;
+    }
 
+
+    .salut {
+        width: 40%;
+    } 
+    .salut input[type=search]{
+        font-size: 15px;
+    }
+    nav .link {
+        top: 10%;
+        background-color:rgb(223, 230, 233) ;
+    }
+    .bouton a {
+        width: 40%;
+    }
+    
+
+
+}
 
 
