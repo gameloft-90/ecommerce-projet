@@ -85,7 +85,10 @@ nav img {
     height: 20px;
     width: 20px;
 }
-
+nav .sac{
+    display: flex;
+    width: 10%;
+}
 .hamburger-menu {
     display: none;
 }
