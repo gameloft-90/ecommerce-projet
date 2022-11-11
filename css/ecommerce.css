@@ -94,7 +94,7 @@ nav input[type=search] {
 }
 .paragraphe p{
     display: flex;
-    text-align: center;
+    text-align: justify;
     width: 40%;
 
 }
@@ -113,7 +113,7 @@ nav input[type=search] {
     font-size: 20px;
     border: solid black 1px;
     padding: 10px 40px 10px 40px;
-    width: 20%;
+    width: 25%;
     text-align: center;
 }
 
@@ -186,6 +186,10 @@ footer {
     margin-right: 5px;
 }
 
+.footer-left div input {
+    background-color:rgb(223, 230, 233) ;
+}
+
 .footer-right {
     display: flex;
     justify-content: flex-start;
@@ -208,11 +212,124 @@ footer {
 .footer-left a {
     font-weight: bold;
 }
-
+.hamburger-menu {
+    display: none;
+}
+.hamburger-menu img {
+    width: 40px;
+    height: 40px;
+}
 
 @media screen and (max-width: 900px) {
     nav a{
         font-size: 15px;
     }
+    .link a{
+        font-size: 10px;
+    }
+    .login{
+        font-size: 10px;
+
+    }
+    .boite{
+        font-size: 30px;
+    }
+    .paragraphe p{
+        width: 100%;
+    }
+    .bouton a {
+        width: 25%;
+    }
+    .figurine img{
+        height: 500px;
+        width: 550px;
+    }
+    .logo img{
+        height: 100px ;
+        width: 130px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-right {
+        display: flex;
+        align-content: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .footer-left{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    nav img,
+    nav span {
+        display: none;
+    }
+
+    nav {
+        min-height: 100px;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    nav .link {
+        position: absolute;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+        top: 20%;
+        left: 0;
+        background-color: black;
+        margin-top: -200%;
+    }
+
+    nav .link a,
+    nav input[type=search],
+    nav input[type=submit] {
+        text-align: center;
+        margin: 20px;
+        width: 100%;
+        z-index: 1;
+        color: #3c5c92;
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    nav input[type=search],
+    nav input[type=submit] {
+        margin: 10px;
+        width: 60%;
+    }
+
+    nav input[type=submit],
+    nav input[type=search] {
+        color: #842129;
+    }
+
+    nav .link.mobile-menu {
+        margin-top: 10px;
+    }
+
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        top: 3%;
+        left: 90%;
+    }
+
 }
+
+
+
 
