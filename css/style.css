@@ -85,10 +85,12 @@ nav img {
     height: 20px;
     width: 20px;
 }
-nav .sac{
+
+nav .sac {
     display: flex;
     width: 10%;
 }
+
 .hamburger-menu {
     display: none;
 }
@@ -379,7 +381,7 @@ svg {
     nav .link a,
     nav input[type=search],
     nav input[type=submit] {
-        text-align: start;
+        text-align: center;
         margin: 20px;
         width: 100%;
         z-index: 1;
